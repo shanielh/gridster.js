@@ -195,6 +195,7 @@
 
     fn.calculate_positions = function(e) {
         this.window_height = $window.height();
+        this.options.container_width = this.$container.width();
     };
 
 
